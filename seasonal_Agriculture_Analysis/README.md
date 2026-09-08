@@ -70,7 +70,7 @@ Drip
 Flood
 Rainfed
 Sprinkler
-📋 Dataset Features
+## 📋 Dataset Features
 
 The dataset contains agricultural, environmental, financial, and resource-related attributes.
 
@@ -112,7 +112,7 @@ Matplotlib
 Seaborn
 
 ## 🔄 Project Workflow
-Raw Agricultural Dataset
+Raw Agricultural Dataset 
           ↓
      Data Loading
           ↓
