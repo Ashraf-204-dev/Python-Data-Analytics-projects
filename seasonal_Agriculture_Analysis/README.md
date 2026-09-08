@@ -1,25 +1,5 @@
-<div align="center">
 
 # 🌾 Seasonal Agriculture Analysis
-
-### 📊 Comprehensive Agricultural Performance Analysis & Dashboard
-
-<p>
-  <b>Python • Pandas • NumPy • Matplotlib • Seaborn • Jupyter Notebook</b>
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/NumPy-Analysis-013243?style=for-the-badge&logo=numpy&logoColor=white">
-  <img src="https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Seaborn-Visualization-4C72B0?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white">
-</p>
-
-</div>
-
----
 
 ## 📌 Project Overview
 
