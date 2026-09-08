@@ -330,22 +330,6 @@ This allows revenue to be evaluated relative to farm size.
 
 ---
 
-# 📊 Dashboard
-
-## 🌾 Comprehensive Agricultural Performance Dashboard
-
-<p align="center">
-  <img src="dashboard.png" alt="Comprehensive Agricultural Performance Dashboard" width="950">
-</p>
-
-The dashboard combines four major visualizations:
-
-<table align="center">
-<tr>
-<th>Visualization</th>
-<th>Purpose</th>
-</tr>
-
 <tr>
 <td>🌱 Average Crop Yield by Season</td>
 <td>Compares agricultural productivity across Kharif, Rabi and Zaid seasons.</td>
@@ -458,27 +442,3 @@ The dashboard represents average revenue distribution across the three seasons.
 </table>
 
 ---
-
-# 💧 Water Usage vs Crop Yield
-
-A scatter plot is used to investigate the relationship between:
-
-<center>
-
-<b>Water Used (m³)</b>
-
-and
-
-<b>Crop Yield (Tonnes/Hectare)</b>
-
-</center>
-
-The visualization helps identify variations in crop yield at different levels of water consumption.
-
-This analysis can provide a foundation for future investigation into:
-
-<ul>
-<li>Water-use efficiency</li>
-<li>Irrigation optimization</li>
-<li>Resource utilization</li>
-<li>Sustainable agricultural practices</li>
