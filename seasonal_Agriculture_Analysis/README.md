@@ -1,118 +1,202 @@
+<div align="center">
+
 # 🌾 Seasonal Agriculture Analysis
-## 📊 Project Overview
 
-Seasonal Agriculture Analysis is a Python-based data analytics project that analyzes agricultural performance across different seasons, states, crops, environmental conditions, resource usage, production costs, revenue, profit, and water consumption.
+### 📊 Comprehensive Agricultural Performance Analysis & Dashboard
 
-The project uses Pandas, NumPy, Matplotlib, and Seaborn to perform data exploration, data-quality analysis, KPI calculation, aggregation, and visualization.
+<p>
+  <b>Python • Pandas • NumPy • Matplotlib • Seaborn • Jupyter Notebook</b>
+</p>
 
-A comprehensive dashboard was created to present important agricultural performance indicators such as:
+<p>
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white">
+  <img src="https://img.shields.io/badge/NumPy-Analysis-013243?style=for-the-badge&logo=numpy&logoColor=white">
+  <img src="https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Seaborn-Visualization-4C72B0?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white">
+</p>
 
-Average crop yield by season
-Average crop yield by state
-Average revenue distribution by season
-Crop yield vs. water usage
+</div>
 
-The objective of this project is to transform raw agricultural data into meaningful insights that can help understand seasonal performance, geographical differences, resource utilization, and agricultural profitability.
+---
+
+## 📌 Project Overview
+
+<b>Seasonal Agriculture Analysis</b> is a Python-based data analytics project developed to analyze agricultural performance across different <b>seasons, states, crops, environmental conditions, resource usage, production costs, revenue, profit, and water consumption</b>.
+
+The project performs <b>Exploratory Data Analysis (EDA)</b>, data-quality checks, statistical analysis, KPI calculations, aggregation, and visualization using Python.
+
+A comprehensive dashboard was developed to visually represent important agricultural indicators such as:
+
+<ul>
+<li>🌱 Average Crop Yield by Season</li>
+<li>🗺️ Average Crop Yield by State</li>
+<li>💰 Average Revenue Distribution by Season</li>
+<li>💧 Crop Yield vs. Water Used</li>
+</ul>
+
+The goal is to convert raw agricultural data into meaningful insights that can help understand <b>agricultural productivity, seasonal variations, geographical performance, profitability, and resource utilization</b>.
+
+---
 
 ## 🎯 Objectives
 
-The main objectives of this project are:
+<ul>
+<li>Analyze agricultural performance across different seasons.</li>
+<li>Compare crop yields across different states.</li>
+<li>Analyze agricultural revenue and profitability.</li>
+<li>Study the relationship between crop yield and water usage.</li>
+<li>Calculate important agricultural KPIs.</li>
+<li>Identify duplicate and missing values.</li>
+<li>Analyze environmental and soil-related agricultural factors.</li>
+<li>Create meaningful data visualizations.</li>
+<li>Develop a comprehensive agricultural performance dashboard.</li>
+<li>Demonstrate practical Python-based data analytics and EDA skills.</li>
+</ul>
 
-Analyze agricultural performance across different seasons.
-Compare crop yields across different Indian states.
-Examine agricultural revenue and profitability.
-Analyze the relationship between crop yield and water usage.
-Calculate important agricultural KPIs.
-Identify missing and duplicate values in the dataset.
-Understand environmental and soil-related factors affecting agricultural production.
-Create meaningful visualizations for easier interpretation of agricultural data.
-Develop a comprehensive agricultural performance dashboard.
-Demonstrate practical Exploratory Data Analysis (EDA) skills using Python.
-🗂️ Dataset Information
+---
 
-## The project uses the dataset:
+## 📊 Dataset Overview
 
-seasonal_agriculture_performance_dataset.csv
+<table align="center">
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
 
-Dataset Size
-Attribute	Value
-Total Records	4,000
-Total Columns	28
-States	8
-Districts	10
-Crops	8
-Seasons	3
-Irrigation Methods	4
-States Included
-Andhra Pradesh
-Gujarat
-Karnataka
-Madhya Pradesh
-Maharashtra
-Punjab
-Tamil Nadu
-Telangana
-Crops Included
-Wheat
-Maize
-Pulses
-Rice
-Cotton
-Chilli
-Groundnut
-Sugarcane
-Seasons Included
-Kharif
-Rabi
-Zaid
-Irrigation Methods
-Drip
-Flood
-Rainfed
-Sprinkler
-## 📋 Dataset Features
+<tr>
+<td><b>Total Records</b></td>
+<td>4,000</td>
+</tr>
 
-The dataset contains agricultural, environmental, financial, and resource-related attributes.
+<tr>
+<td><b>Total Columns</b></td>
+<td>28</td>
+</tr>
 
-Column	Description
-Farm_ID	Unique identifier for each farm
-State	State where the farm is located
-District	District associated with the farm
-Crop	Crop cultivated
-Season	Agricultural season
-Farm_Area_Hectares	Farm area in hectares
-Rainfall_mm	Rainfall received in millimeters
-Avg_Temperature_C	Average temperature in Celsius
-Humidity_pct	Humidity percentage
-Sunlight_Hours_Day	Average daily sunlight
-Soil_pH	Soil pH value
-Soil_Moisture_pct	Soil moisture percentage
-Nitrogen_kg_ha	Nitrogen quantity per hectare
-Phosphorus_kg_ha	Phosphorus quantity per hectare
-Potassium_kg_ha	Potassium quantity per hectare
-Irrigation_Method	Irrigation method used
-Fertilizer_kg_ha	Fertilizer quantity per hectare
-Pesticide_Litre_ha	Pesticide usage per hectare
-Seed_Quality_Score	Seed quality score
-Yield_Tonnes_Ha	Crop yield per hectare
-Production_Tonnes	Total crop production
-Market_Price_INR_Tonne	Market price per tonne
-Total_Cost_INR	Total agricultural cost
-Revenue_INR	Revenue generated
-Profit_INR	Profit or loss generated
-Water_Used_m3	Water consumed in cubic meters
-Water_Efficiency_t_per_1000m3	Water efficiency
-Disease_Pest_Risk_pct	Disease and pest risk percentage
-🛠️ Technologies Used
-Python
-Jupyter Notebook
-Pandas
-NumPy
-Matplotlib
-Seaborn
+<tr>
+<td><b>States</b></td>
+<td>8</td>
+</tr>
+
+<tr>
+<td><b>Districts</b></td>
+<td>10</td>
+</tr>
+
+<tr>
+<td><b>Crops</b></td>
+<td>8</td>
+</tr>
+
+<tr>
+<td><b>Seasons</b></td>
+<td>3</td>
+</tr>
+
+<tr>
+<td><b>Irrigation Methods</b></td>
+<td>4</td>
+</tr>
+
+</table>
+
+### 🗺️ States
+
+<p align="center">
+Andhra Pradesh • Gujarat • Karnataka • Madhya Pradesh • Maharashtra • Punjab • Tamil Nadu • Telangana
+</p>
+
+### 🌱 Crops
+
+<p align="center">
+Wheat • Maize • Pulses • Rice • Cotton • Chilli • Groundnut • Sugarcane
+</p>
+
+### 🌦️ Seasons
+
+<p align="center">
+Kharif • Rabi • Zaid
+</p>
+
+### 💧 Irrigation Methods
+
+<p align="center">
+Drip • Flood • Rainfed • Sprinkler
+</p>
+
+---
+
+## 🧾 Dataset Features
+
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr><td><code>Farm_ID</code></td><td>Unique identifier for each farm</td></tr>
+<tr><td><code>State</code></td><td>State where the farm is located</td></tr>
+<tr><td><code>District</code></td><td>District associated with the farm</td></tr>
+<tr><td><code>Crop</code></td><td>Crop cultivated</td></tr>
+<tr><td><code>Season</code></td><td>Agricultural season</td></tr>
+<tr><td><code>Farm_Area_Hectares</code></td><td>Farm area in hectares</td></tr>
+<tr><td><code>Rainfall_mm</code></td><td>Rainfall received in millimeters</td></tr>
+<tr><td><code>Avg_Temperature_C</code></td><td>Average temperature in Celsius</td></tr>
+<tr><td><code>Humidity_pct</code></td><td>Humidity percentage</td></tr>
+<tr><td><code>Sunlight_Hours_Day</code></td><td>Average daily sunlight</td></tr>
+<tr><td><code>Soil_pH</code></td><td>Soil pH value</td></tr>
+<tr><td><code>Soil_Moisture_pct</code></td><td>Soil moisture percentage</td></tr>
+<tr><td><code>Nitrogen_kg_ha</code></td><td>Nitrogen quantity per hectare</td></tr>
+<tr><td><code>Phosphorus_kg_ha</code></td><td>Phosphorus quantity per hectare</td></tr>
+<tr><td><code>Potassium_kg_ha</code></td><td>Potassium quantity per hectare</td></tr>
+<tr><td><code>Irrigation_Method</code></td><td>Irrigation method used</td></tr>
+<tr><td><code>Fertilizer_kg_ha</code></td><td>Fertilizer quantity per hectare</td></tr>
+<tr><td><code>Pesticide_Litre_ha</code></td><td>Pesticide usage per hectare</td></tr>
+<tr><td><code>Seed_Quality_Score</code></td><td>Seed quality score</td></tr>
+<tr><td><code>Yield_Tonnes_Ha</code></td><td>Crop yield per hectare</td></tr>
+<tr><td><code>Production_Tonnes</code></td><td>Total crop production</td></tr>
+<tr><td><code>Market_Price_INR_Tonne</code></td><td>Market price per tonne</td></tr>
+<tr><td><code>Total_Cost_INR</code></td><td>Total agricultural cost</td></tr>
+<tr><td><code>Revenue_INR</code></td><td>Revenue generated</td></tr>
+<tr><td><code>Profit_INR</code></td><td>Profit or loss generated</td></tr>
+<tr><td><code>Water_Used_m3</code></td><td>Water consumed in cubic meters</td></tr>
+<tr><td><code>Water_Efficiency_t_per_1000m3</code></td><td>Water efficiency</td></tr>
+<tr><td><code>Disease_Pest_Risk_pct</code></td><td>Disease and pest risk percentage</td></tr>
+
+</tbody>
+</table>
+
+---
+
+## 🛠️ Technologies Used
+
+<div align="center">
+
+| Technology          | Purpose                            |
+| ------------------- | ---------------------------------- |
+| 🐍 Python           | Programming & Data Analysis        |
+| 🐼 Pandas           | Data Manipulation & Analysis       |
+| 🔢 NumPy            | Numerical Computing                |
+| 📊 Matplotlib       | Data Visualization                 |
+| 📈 Seaborn          | Statistical Visualization          |
+| 📓 Jupyter Notebook | Development & Analysis Environment |
+
+</div>
+
+---
 
 ## 🔄 Project Workflow
-Raw Agricultural Dataset 
+
+<div align="center">
+
+```text
+Raw Agricultural Dataset
           ↓
      Data Loading
           ↓
@@ -120,15 +204,11 @@ Raw Agricultural Dataset
           ↓
    Dataset Information
           ↓
-     Data Types
+     Data Cleaning
+          ↓
+ Duplicate & Missing Value Analysis
           ↓
    Statistical Analysis
-          ↓
- Duplicate Value Check
-          ↓
- Missing Value Analysis
-          ↓
- Missing Value Treatment
           ↓
       KPI Creation
           ↓
@@ -138,64 +218,287 @@ Raw Agricultural Dataset
           ↓
  Agricultural Dashboard
           ↓
-      Insights
-      
+     Key Insights
+```
+
+</div>
+
+---
+
 ## 🔍 Exploratory Data Analysis
-1. Data Loading
 
-The dataset is loaded into a Pandas DataFrame using:
+<details>
+<summary><b>1️⃣ Data Loading & Exploration</b></summary>
 
-df = pd.read_csv("seasonal_agriculture_performance_dataset.csv")
+<br>
 
-The first and last records are inspected using:
+The agricultural dataset is loaded into a Pandas DataFrame and examined using functions such as:
 
-df.head(10)
-df.tail(10)
-
-This provides an initial understanding of the dataset structure and values.
-
-2. Dataset Metadata
-
-The project examines the number of rows and columns using:
-
-print("No.of Rows:", df.shape[0])
-print("No.of Columns:", df.shape[1])
-
-The dataset contains:
-
-4,000 rows × 28 columns
-
-3. Data Types
-
-The data types of all columns are examined using:
-
+```python
+df.head()
+df.tail()
+df.shape
+df.info()
 df.dtypes
+```
 
-The dataset contains both:
+These operations provide an initial understanding of the dataset structure, records, columns, and data types.
 
-Numerical variables
-Categorical variables
+</details>
 
-This distinction is important for performing appropriate analysis and preprocessing.
+<details>
+<summary><b>2️⃣ Statistical Analysis</b></summary>
 
-4. Statistical Analysis
+<br>
 
 Descriptive statistics are generated using:
 
+```python
 df.describe().T
+```
 
-## Important numerical variables analyzed include:
+The analysis examines numerical variables including:
 
-Farm area
-Rainfall
-Temperature
-Soil pH
-Fertilizer usage
-Crop yield
-Production
-Market price
-Cost
-Revenue
-Profit
-Water usage
-Water efficiency
+<ul>
+<li>Farm Area</li>
+<li>Rainfall</li>
+<li>Temperature</li>
+<li>Soil pH</li>
+<li>Fertilizer Usage</li>
+<li>Crop Yield</li>
+<li>Production</li>
+<li>Market Price</li>
+<li>Total Cost</li>
+<li>Revenue</li>
+<li>Profit</li>
+<li>Water Usage</li>
+<li>Water Efficiency</li>
+</ul>
+
+</details>
+
+<details>
+<summary><b>3️⃣ Data Quality Analysis</b></summary>
+
+<br>
+
+Duplicate values are checked using:
+
+```python
+df.duplicated().sum()
+```
+
+Missing values are analyzed using:
+
+```python
+df.isna().sum()
+```
+
+Categorical missing values are handled using an <code>Unknown</code> category where applicable.
+
+</details>
+
+---
+
+# 📌 Key Performance Indicators
+
+## 💰 Net Profit / Loss
+
+The project calculates the total net profit or loss using:
+
+```python
+net_profit_loss = df['Profit_INR'].sum()
+```
+
+### Total Net Profit
+
+<div align="center">
+
+<h2>₹446.23 Million</h2>
+
+</div>
+
+---
+
+## 💵 Cost per Hectare
+
+Cost efficiency is calculated using:
+
+```python
+df['Cost_Per_Hectare'] = (
+    df['Total_Cost_INR'] /
+    df['Farm_Area_Hectares']
+)
+```
+
+This provides an estimate of agricultural expenditure per hectare.
+
+---
+
+## 💰 Revenue per Hectare
+
+Revenue efficiency is calculated using:
+
+```python
+df['Revenue_Per_Hectare'] = (
+    df['Revenue_INR'] /
+    df['Farm_Area_Hectares']
+)
+```
+
+This allows revenue to be evaluated relative to farm size.
+
+---
+
+# 📊 Dashboard
+
+## 🌾 Comprehensive Agricultural Performance Dashboard
+
+<p align="center">
+  <img src="dashboard.png" alt="Comprehensive Agricultural Performance Dashboard" width="950">
+</p>
+
+The dashboard combines four major visualizations:
+
+<table align="center">
+<tr>
+<th>Visualization</th>
+<th>Purpose</th>
+</tr>
+
+<tr>
+<td>🌱 Average Crop Yield by Season</td>
+<td>Compares agricultural productivity across Kharif, Rabi and Zaid seasons.</td>
+</tr>
+
+<tr>
+<td>🗺️ Average Crop Yield by State</td>
+<td>Compares average agricultural yield across different states.</td>
+</tr>
+
+<tr>
+<td>💰 Average Revenue Distribution by Season</td>
+<td>Shows the relative revenue contribution of different seasons.</td>
+</tr>
+
+<tr>
+<td>💧 Crop Yield vs. Water Used</td>
+<td>Explores the relationship between water consumption and crop yield.</td>
+</tr>
+
+</table>
+
+---
+
+# 🌱 Seasonal Yield Analysis
+
+The analysis compares average crop yield across three agricultural seasons.
+
+<table align="center">
+<tr>
+<th>Season</th>
+<th>Average Yield (Tonnes/Hectare)</th>
+</tr>
+
+<tr>
+<td>🌾 Kharif</td>
+<td><b>~5.64</b></td>
+</tr>
+
+<tr>
+<td>🌱 Rabi</td>
+<td>~5.08</td>
+</tr>
+
+<tr>
+<td>🌿 Zaid</td>
+<td>~4.67</td>
+</tr>
+
+</table>
+
+<p align="center">
+<b>Kharif records the highest average crop yield among the three seasons.</b>
+</p>
+
+---
+
+# 🗺️ State-wise Yield Analysis
+
+The average crop yield varies across the eight states included in the dataset.
+
+<table align="center">
+<tr>
+<th>State</th>
+<th>Average Yield</th>
+</tr>
+
+<tr><td>Punjab</td><td><b>~6.12</b></td></tr>
+<tr><td>Karnataka</td><td>~5.73</td></tr>
+<tr><td>Gujarat</td><td>~5.70</td></tr>
+<tr><td>Telangana</td><td>~5.08</td></tr>
+<tr><td>Madhya Pradesh</td><td>~5.03</td></tr>
+<tr><td>Maharashtra</td><td>~5.03</td></tr>
+<tr><td>Tamil Nadu</td><td>~4.90</td></tr>
+<tr><td>Andhra Pradesh</td><td>~4.65</td></tr>
+
+</table>
+
+<p align="center">
+<b>Punjab records the highest average crop yield in the analyzed dataset.</b>
+</p>
+
+---
+
+# 💰 Revenue Distribution
+
+The dashboard represents average revenue distribution across the three seasons.
+
+<table align="center">
+<tr>
+<th>Season</th>
+<th>Revenue Share</th>
+</tr>
+
+<tr>
+<td>🌾 Kharif</td>
+<td><b>38.8%</b></td>
+</tr>
+
+<tr>
+<td>🌱 Rabi</td>
+<td><b>32.8%</b></td>
+</tr>
+
+<tr>
+<td>🌿 Zaid</td>
+<td><b>28.3%</b></td>
+</tr>
+
+</table>
+
+---
+
+# 💧 Water Usage vs Crop Yield
+
+A scatter plot is used to investigate the relationship between:
+
+<center>
+
+<b>Water Used (m³)</b>
+
+and
+
+<b>Crop Yield (Tonnes/Hectare)</b>
+
+</center>
+
+The visualization helps identify variations in crop yield at different levels of water consumption.
+
+This analysis can provide a foundation for future investigation into:
+
+<ul>
+<li>Water-use efficiency</li>
+<li>Irrigation optimization</li>
+<li>Resource utilization</li>
+<li>Sustainable agricultural practices</li>
