@@ -392,5 +392,3 @@ Visualization
         ↓
 Generate Insights
 
-
-DashBoard: <a href="https://github.com/Ashraf-204-dev/Python-Data-Analytics-projects/blob/main/Airbnb_Data_Analysis/Screenshot%202026-09-08%20231013.png"> View DashBoard </a>
